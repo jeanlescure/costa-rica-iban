@@ -13,7 +13,9 @@ export const getCountryPrefixFromIBAN = (iban) => {
 };
 
 export const verifyIBANCountryPrefix = (iban) => {
+  errorIfNotString(iban);
 
+  return getCountryPrefixFromIBAN(iban) === 'CR';
 };
 
 export const verifyIBANLength = (iban) => {
