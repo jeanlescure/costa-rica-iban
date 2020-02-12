@@ -3,6 +3,7 @@ import CostaRicaIBAN, {
   verifyIBANCountryPrefix,
   verifyIBANLength,
   verifyIBANFormat,
+  getBankCodeFromIBAN,
 } from '../src';
 
 const goodIBAN = 'CR06010200009123456789';
@@ -49,6 +50,16 @@ describe('Costa Rica IBAN functions', () => {
       expect(e.message).toBe('Type Error: expected string');
       expect(verifyIBANFormat(badIBAN)).toBe(false);
       expect(verifyIBANFormat(goodIBAN)).toBe(true);
+    }
+  });
+
+  it('should be able to get the bank code', () => {
+    try {
+      getBankCodeFromIBAN();
+      expect(true).toBe(false);
+    } catch(e) {
+      expect(e.message).toBe('Type Error: expected string');
+      expect(getBankCodeFromIBAN(goodIBAN)).toBe('102');
     }
   });
 });
