@@ -54,7 +54,13 @@ export const getBankObjectFromIBAN = (iban) => {
 };
 
 export const getBankNameFromIBAN = (iban, returnRepresentative = false) => {
+  const bankObject = getBankObjectFromIBAN(iban);
 
+  return (returnRepresentative && bankObject.participation === 'representada') ? (
+    bankObject.representative
+  ) : (
+    bankObject.entity
+  );
 };
 
 class CostaRicaIBAN {
