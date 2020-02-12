@@ -1,0 +1,23 @@
+{
+  "name": "costa-rica-iban",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "license": "MIT",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "yarn build && jest",
+    "lint": "eslint --format codeframe --ext mjs,js src test"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@neutrinojs/airbnb-base": "^9.1.0",
+    "@neutrinojs/jest": "^9.1.0",
+    "@neutrinojs/library": "^9.1.0",
+    "eslint": "^6",
+    "jest": "^25",
+    "neutrino": "^9.1.0",
+    "webpack": "^4",
+    "webpack-cli": "^3"
+  }
+}
