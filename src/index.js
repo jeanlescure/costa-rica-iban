@@ -19,7 +19,9 @@ export const verifyIBANCountryPrefix = (iban) => {
 };
 
 export const verifyIBANLength = (iban) => {
+  errorIfNotString(iban);
 
+  return iban.length === 22;
 };
 
 export const verifyIBANFormat = (iban) => {
