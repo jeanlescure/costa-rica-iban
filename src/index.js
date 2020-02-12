@@ -1,7 +1,7 @@
 const NOT_STRING_ERROR = new Error('Type Error: expected string');
 
-const errorIfNotString = (varToCheck) => {
-  if (typeof varToCheck !== 'string') {
+const errorIfNotString = (varToverify) => {
+  if (typeof varToverify !== 'string') {
     throw NOT_STRING_ERROR;
   }
 }
@@ -12,15 +12,15 @@ export const getCountryPrefixFromIBAN = (iban) => {
   return iban.slice(0, 2);
 };
 
-export const checkIBANCountryPrefix = (iban) => {
+export const verifyIBANCountryPrefix = (iban) => {
 
 };
 
-export const checkIBANLength = (iban) => {
+export const verifyIBANLength = (iban) => {
 
 };
 
-export const checkIBANFormat = (iban) => {
+export const verifyIBANFormat = (iban) => {
 
 };
 
