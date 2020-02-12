@@ -4,9 +4,14 @@ import CostaRicaIBAN, {
   verifyIBANLength,
   verifyIBANFormat,
   getBankCodeFromIBAN,
+  getBankObjectFromIBAN,
 } from '../src';
 
+const bankCollection = require('../src/bank-collection.json');
+
 const goodIBAN = 'CR06010200009123456789';
+const goodIBANBank = bankCollection.find((b) => b.code === '102');
+
 const badIBAN = 'DE69 5021 0900 0123 4567 13';
 
 describe('Costa Rica IBAN functions', () => {
@@ -55,11 +60,21 @@ describe('Costa Rica IBAN functions', () => {
 
   it('should be able to get the bank code', () => {
     try {
-      getBankCodeFromIBAN();
+      getBankCodeFromIBAN(badIBAN);
       expect(true).toBe(false);
     } catch(e) {
-      expect(e.message).toBe('Type Error: expected string');
+      expect(e.message).toBe('Format Error: invalid Costa Rica IBAN format');
       expect(getBankCodeFromIBAN(goodIBAN)).toBe('102');
+    }
+  });
+
+  it('should be able to get the bank object', () => {
+    try {
+      getBankObjectFromIBAN(badIBAN);
+      expect(true).toBe(false);
+    } catch(e) {
+      expect(e.message).toBe('Format Error: invalid Costa Rica IBAN format');
+      expect(getBankObjectFromIBAN(goodIBAN).entity).toBe('BAC San José S.A.');
     }
   });
 });

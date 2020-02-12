@@ -1,524 +1,524 @@
 [
   {
-    "code": 100,
+    "code": "100",
     "entity": "Banco Central de Costa Rica",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 102,
+    "code": "102",
     "entity": "BAC San José S.A.",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 104,
+    "code": "104",
     "entity": "Banco Davivienda (Costa Rica) S.A.",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 107,
+    "code": "107",
     "entity": "Banco BCT, S. A.",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 114,
+    "code": "114",
     "entity": "Banco LAFISE S. A.",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 116,
+    "code": "116",
     "entity": "Banca Promérica S.A.",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 117,
+    "code": "117",
     "entity": "Banco Citibank (Costa Rica), S.A.",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 120,
+    "code": "120",
     "entity": "Banco Improsa S.A.",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 123,
+    "code": "123",
     "entity": "Scotiabank de Costa Rica S.A.",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 125,
+    "code": "125",
     "entity": "Banco Cathay de Costa Rica S.A.",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 126,
+    "code": "126",
     "entity": "Banco General (Costa Rica) S.A.",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 151,
+    "code": "151",
     "entity": "Banco Nacional de Costa Rica",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 152,
+    "code": "152",
     "entity": "Banco de Costa Rica",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 153,
+    "code": "153",
     "entity": "Banco Crédito Agrícola de Cartago",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 161,
+    "code": "161",
     "entity": "Banco Popular y de Desarrollo Comunal",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 162,
+    "code": "162",
     "entity": "Banco Hipotecario de la Vivienda",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 180,
+    "code": "180",
     "entity": "COOPEACOSTA",
     "participation": "representada",
     "representative": "COOPENAE"
   },
   {
-    "code": 304,
+    "code": "304",
     "entity": "Financiera Cafsa S. A.",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 310,
+    "code": "310",
     "entity": "Financiera G&T Continental Costa Rica S. A.",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 312,
+    "code": "312",
     "entity": "Banco de Soluciones de Costa Rica S.A.",
     "participation": "",
     "representative": ""
   },
   {
-    "code": 321,
+    "code": "321",
     "entity": "Financiera Multivalores S. A.",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 322,
+    "code": "322",
     "entity": "Financiera Comeca S. A.",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 326,
+    "code": "326",
     "entity": "Financiera Desyfin S. A.",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 406,
+    "code": "406",
     "entity": "Latin American Exchange Casa de Cambio S.A(Latinex)",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 450,
+    "code": "450",
     "entity": "Citi Tarjetas de Costa Rica S.A.",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 451,
+    "code": "451",
     "entity": "Evertec Costa Rica S.A.",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 501,
+    "code": "501",
     "entity": "Bolsa Nacional de Valores S.A.",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 553,
+    "code": "553",
     "entity": "Inversiones Sama, S.A.",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 554,
+    "code": "554",
     "entity": "Mercado de Valores de C. R.",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 556,
+    "code": "556",
     "entity": "BCT Valores",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 558,
+    "code": "558",
     "entity": "Citi Valores Accival, S.A.",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 559,
+    "code": "559",
     "entity": "ACOBO",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 568,
+    "code": "568",
     "entity": "INS Valores",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 569,
+    "code": "569",
     "entity": "Lafise Valores",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 570,
+    "code": "570",
     "entity": "Davivienda Puesto de Bolsa (Costa Rica) S.A.",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 571,
+    "code": "571",
     "entity": "Scotia Valores",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 574,
+    "code": "574",
     "entity": "Mutual Valores",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 577,
+    "code": "577",
     "entity": "Aldesa Valores",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 581,
+    "code": "581",
     "entity": "BAC San José",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 586,
+    "code": "586",
     "entity": "BN Valores",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 587,
+    "code": "587",
     "entity": "Popular Valores",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 588,
+    "code": "588",
     "entity": "BCR Valores",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 594,
+    "code": "594",
     "entity": "Improsa Valores",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 651,
+    "code": "651",
     "entity": "BN-VITAL Operadora de Planes de Pensiones Complementarias, S. A.",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 653,
+    "code": "653",
     "entity": "Vida Plena Operadora de Pensiones Complementarias, S. A.",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 654,
+    "code": "654",
     "entity": "Caja Costarricense de Seguro Social Operadora de Pensiones Complementarias",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 655,
+    "code": "655",
     "entity": "Bac San José Operadora de Pensiones Complementarias",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 656,
+    "code": "656",
     "entity": "Operadora de Planes de Pensiones Complementarias del Banco Popular y Desarrollo Comunal",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 657,
+    "code": "657",
     "entity": "BCR Operadora Planes de Pensiones Complementarias S.A.",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 725,
+    "code": "725",
     "entity": "MIDEPLAN",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 730,
+    "code": "730",
     "entity": "Instituto de Fomento y Asesoría Municipal (IFAM)",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 731,
+    "code": "731",
     "entity": "Instituto Costarricense sobre Drogas (ICD)",
     "participation": "",
     "representative": ""
   },
   {
-    "code": 734,
+    "code": "734",
     "entity": "Instituto Costarricense de Electricidad (ICE)",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 735,
+    "code": "735",
     "entity": "Recope",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 739,
+    "code": "739",
     "entity": "Ministerio de Hacienda",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 745,
+    "code": "745",
     "entity": "Central de Valores Bolsa Nacional de Valores (CEVAL)",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 746,
+    "code": "746",
     "entity": "Caja Costarricense de Seguro Social (CCSS)",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 747,
+    "code": "747",
     "entity": "Instituto Nacional de Seguros (INS)",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 750,
+    "code": "750",
     "entity": "Gob. Tribunal Supremo de Elecciones (TSE)",
     "participation": "",
     "representative": ""
   },
   {
-    "code": 754,
+    "code": "754",
     "entity": "Junta de Protección Social de San José",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 755,
+    "code": "755",
     "entity": "Municipalidad de San José",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 756,
+    "code": "756",
     "entity": "Radiográfica Costarricense S.A. (RACSA)",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 757,
+    "code": "757",
     "entity": "Municipalidad de Cartago",
     "participation": "representada",
-    "representative": "Coopenae"
+    "representative": "COOPENAE"
   },
   {
-    "code": 803,
+    "code": "803",
     "entity": "Grupo Mutual Alajuela la Vivienda",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 804,
+    "code": "804",
     "entity": "Mutual Cartago de Ahorro y Préstamo",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 811,
+    "code": "811",
     "entity": "Cooperativa de Ahorro y Crédito de la Comunidad de Ciudad Quesada R. L. (COOCIQUE)",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 812,
+    "code": "812",
     "entity": "COOPE SAN MARCOS",
     "participation": "representada",
     "representative": "COOPENAE"
   },
   {
-    "code": 813,
+    "code": "813",
     "entity": "Cooperativa de Ahorro y Crédito Alianza de Pérez Zeledón (COOPEALIANZA)",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 814,
+    "code": "814",
     "entity": "Cooperativa Nacional de Educadores. R.L. (COOPENAE)",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 815,
+    "code": "815",
     "entity": "SERVICOOP R.L.",
     "participation": "representada",
     "representative": "COOPENAE"
   },
   {
-    "code": 816,
+    "code": "816",
     "entity": "Cooperativa de Ahorro y Crédito de Servidores Públicos R.L. (COOPESERVIDORES)",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 817,
+    "code": "817",
     "entity": "Cooperativa de Ahorro y Crédito ANDE Nº 1 R.L. (COOPEANDE).",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 820,
+    "code": "820",
     "entity": "Coop. COOPECAJA",
     "participation": "representada",
     "representative": "COOPENAE"
   },
   {
-    "code": 821,
+    "code": "821",
     "entity": "Caja de Ahorro y Préstamos de ANDE",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 822,
+    "code": "822",
     "entity": "COOPEMEP R.L.",
     "participation": "asociada",
     "representative": ""
   },
   {
-    "code": 824,
+    "code": "824",
     "entity": "CREDECOOP",
     "participation": "representada",
     "representative": "COOPENAE"
   },
   {
-    "code": 825,
+    "code": "825",
     "entity": "COOPESAN RAMON",
     "participation": "representada",
     "representative": "COOPENAE"
   },
   {
-    "code": 827,
+    "code": "827",
     "entity": "COOPEBANPO",
     "participation": "representada",
     "representative": "COOPENAE"
   },
   {
-    "code": 829,
+    "code": "829",
     "entity": "COOPEAMISTAD",
     "participation": "representada",
     "representative": "COOPENAE"
   },
   {
-    "code": 831,
+    "code": "831",
     "entity": "COOPEGRECIA",
     "participation": "representada",
     "representative": "COOPENAE"
   },
   {
-    "code": 832,
+    "code": "832",
     "entity": "COOPAVEGRA",
     "participation": "representada",
     "representative": "COOPENAE"
   },
   {
-    "code": 833,
+    "code": "833",
     "entity": "COOPEUNA",
     "participation": "representada",
     "representative": "COOPENAE"
   },
   {
-    "code": 834,
+    "code": "834",
     "entity": "COOPEANDE No. 7 R.L.",
     "participation": "representada",
     "representative": "COOPENAE"
   },
   {
-    "code": 835,
+    "code": "835",
     "entity": "COOPESPARTA R.L.",
     "participation": "representada",
     "representative": "COOPENAE"
   },
   {
-    "code": 836,
+    "code": "836",
     "entity": "COOPEASERRI R.L.",
     "participation": "representada",
     "representative": "COOPENAE"
   },
   {
-    "code": 837,
+    "code": "837",
     "entity": "Credomatic",
     "participation": "representada",
     "representative": "BAC San José"
   },
   {
-    "code": 838,
+    "code": "838",
     "entity": "Promotora del Comercio Exterior de Costa Rica (Procomer)",
     "participation": "representada",
-    "representative": "Coopenae"
+    "representative": "COOPENAE"
   }
 ]
