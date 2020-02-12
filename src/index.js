@@ -67,9 +67,25 @@ class CostaRicaIBAN {
   iban = null;
 
   constructor(iban) {
-    if (false) {
-      throw new Error();
-    }
+    errorOnInvalidIBAN(iban);
+
+    this.iban = iban;
+  }
+
+  getCountryPrefix() {
+    return getCountryPrefixFromIBAN(this.iban);
+  }
+
+  getBankCode() {
+    return getBankCodeFromIBAN(this.iban);
+  }
+
+  getBankObject() {
+    return getBankObjectFromIBAN(this.iban);
+  }
+
+  getBankName() {
+    return getBankNameFromIBAN(this.iban);
   }
 }
 
