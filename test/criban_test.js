@@ -68,7 +68,7 @@ describe('Costa Rica IBAN functions', () => {
       expect(true).toBe(false);
     } catch(e) {
       expect(e.message).toBe('Format Error: invalid Costa Rica IBAN format');
-      expect(getBankCodeFromIBAN(goodIBAN)).toBe('102');
+      expect(getBankCodeFromIBAN(goodIBAN)).toBe(goodIBANBank.code);
     }
   });
 
@@ -92,5 +92,52 @@ describe('Costa Rica IBAN functions', () => {
       expect(getBankNameFromIBAN(ambiguousIBAN)).toBe(ambiguousIBANBank.entity);
       expect(getBankNameFromIBAN(ambiguousIBAN, true)).toBe(ambiguousIBANBank.representative);
     }
+  });
+});
+
+describe('Costa Rica IBAN class', () => {
+  it('should be able to initialize with a valid Costa Rica IBAN', () => {
+    let cri;
+
+    try {
+      cri = new CostaRicaIBAN(badIBAN);
+      expect(true).toBe(false);
+    } catch(e) {
+      expect(e.message).toBe('Format Error: invalid Costa Rica IBAN format');
+    }
+
+    try {
+      cri = new CostaRicaIBAN();
+      expect(true).toBe(false);
+    } catch(e) {
+      expect(e.message).toBe('Type Error: expected string');
+
+      cri = new CostaRicaIBAN(goodIBAN);
+      expect(cri.iban).toBe(goodIBAN);
+    }
+  });
+
+  it('should be able to get the country prefix', () => {
+    const cri = new CostaRicaIBAN(goodIBAN);
+
+    expect(cri.getCountryPrefix()).toBe('CR');
+  });
+
+  it('should be able to get the bank code', () => {
+    const cri = new CostaRicaIBAN(goodIBAN);
+
+    expect(cri.getBankCode()).toBe(goodIBANBank.code);
+  });
+
+  it('should be able to get the bank object', () => {
+    const cri = new CostaRicaIBAN(goodIBAN);
+
+    expect(cri.getBankObject().entity).toBe(goodIBANBank.entity);
+  });
+
+  it('should be able to get the bank name', () => {
+    const cri = new CostaRicaIBAN(goodIBAN);
+
+    expect(cri.getBankName()).toBe(goodIBANBank.entity);
   });
 });
