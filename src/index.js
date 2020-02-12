@@ -1,5 +1,15 @@
-export const getCountryPrefixFromIBAN = (iban) => {
+const NOT_STRING_ERROR = new Error('Type Error: expected string');
 
+const errorIfNotString = (varToCheck) => {
+  if (typeof varToCheck !== 'string') {
+    throw NOT_STRING_ERROR;
+  }
+}
+
+export const getCountryPrefixFromIBAN = (iban) => {
+  errorIfNotString(iban);
+
+  return iban.slice(0, 2);
 };
 
 export const checkIBANCountryPrefix = (iban) => {

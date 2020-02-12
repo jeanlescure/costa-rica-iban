@@ -6,6 +6,11 @@ const goodIBAN = 'CR06010200009123456789';
 
 describe('Costa Rica IBAN class', () => {
   it('should be able to get the country prefix', () => {
-    expect(getCountryPrefixFromIBAN(goodIBAN)).toBe('CR');
+    try {
+      getCountryPrefixFromIBAN();
+    } catch(e) {
+      expect(e.message).toBe('Type Error: expected string');
+      expect(getCountryPrefixFromIBAN(goodIBAN)).toBe('CR');
+    }
   });
 });
