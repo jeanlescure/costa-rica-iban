@@ -1,6 +1,6 @@
 {
   "name": "costa-rica-iban",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/costa-rica-iban.min.js",
   "license": "MIT",
   "scripts": {
