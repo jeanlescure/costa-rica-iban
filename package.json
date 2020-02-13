@@ -1,7 +1,7 @@
 {
   "name": "costa-rica-iban",
   "version": "1.0.0",
-  "main": "dist/costa-rica-iban.js",
+  "main": "dist/costa-rica-iban.min.js",
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode production",
