@@ -6,7 +6,15 @@ const libName = require('./package.json').name;
 
 module.exports = {
   use: [
-    airbnbBase(),
+    airbnbBase({
+      eslint: {
+        baseConfig: {
+          rules: {
+            'jest/no-try-expect': 'off',
+          },
+        },
+      },
+    }),
     library({
       name: libName,
       babel: {
