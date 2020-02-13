@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Costa Rica IBAN - Verifica tu cuenta en línea</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <style>
     :root {
@@ -208,8 +208,10 @@ EL SOFTWARE SE PROPORCIONA "COMO ESTÁ", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA 
       }
 
       if (value.length === 22) {
+        e.target.value = value.toUpperCase();
+
         try {
-          var cri = new CostaRicaIBAN(value);
+          var cri = new CostaRicaIBAN(e.target.value);
 
           var bankObject = cri.getBankObject();
 
