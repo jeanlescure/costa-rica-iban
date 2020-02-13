@@ -1,13 +1,13 @@
 {
   "name": "costa-rica-iban",
   "version": "1.0.0",
-  "main": "build/index.js",
+  "main": "dist/costa-rica-iban.js",
   "license": "MIT",
-  "module": "src/index.js",
   "scripts": {
     "build": "webpack --mode production",
     "test": "jest",
-    "lint": "eslint --format codeframe --ext mjs,js src test"
+    "lint": "eslint --format codeframe --ext mjs,js src test",
+    "deploy": "yarn test && yarn build && rm -rf ./dist && cp -r ./build ./dist && yarn publish"
   },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.8.3",
@@ -19,6 +19,7 @@
     "jest": "^25",
     "neutrino": "^9.1.0",
     "webpack": "^4",
+    "webpack-chain": "^6.4.0",
     "webpack-cli": "^3"
   }
 }

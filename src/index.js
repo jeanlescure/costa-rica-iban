@@ -1,4 +1,5 @@
 const bankCollection = require('./bank-collection.json');
+
 const bankCodes = bankCollection.map((b) => b.code);
 
 const NOT_STRING_ERROR = new Error('Type Error: expected string');
@@ -8,7 +9,7 @@ const errorIfNotString = (varToverify) => {
   if (typeof varToverify !== 'string') {
     throw NOT_STRING_ERROR;
   }
-}
+};
 
 export const getCountryPrefixFromIBAN = (iban) => {
   errorIfNotString(iban);
@@ -38,12 +39,12 @@ const errorOnInvalidIBAN = (iban) => {
   if (!verifyIBANFormat(iban)) {
     throw INVALID_IBAN_ERROR;
   }
-}
+};
 
 export const getBankCodeFromIBAN = (iban) => {
   errorOnInvalidIBAN(iban);
 
-  return iban.slice(5,8);
+  return iban.slice(5, 8);
 };
 
 export const getBankObjectFromIBAN = (iban) => {

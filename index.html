@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <style>
+    :root {
+      --input-padding-x: .75rem;
+      --input-padding-y: .75rem;
+    }
+
+    html,
+    body {
+      height: 100%;
+    }
+
+    body {
+      -ms-flex-align: center;
+      -ms-flex-pack: center;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      justify-content: center;
+      padding: 40px;
+      background-color: #f5f5f5;
+    }
+
+    hr {
+      margin-top: 4rem;
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      margin-bottom: 2rem;
+    }
+
+    h3 {
+      margin-top: 2rem;
+    }
+
+    pre {
+      white-space: pre-wrap;
+    }
+
+    .form-iban {
+      max-width: 580px;
+      margin: auto;
+    }
+
+    .form-label-group {
+      position: relative;
+      margin-bottom: 1rem;
+    }
+
+    .form-label-group > input,
+    .form-label-group > label {
+      padding: calc(var(--input-padding-y) / 2) var(--input-padding-x);
+    }
+
+    .form-label-group > label {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      width: 100%;
+      margin-bottom: 0; /* Override default `<label>` margin */
+      line-height: 1.5;
+      color: #495057;
+      border: 1px solid transparent;
+      border-radius: .25rem;
+      transition: all .1s ease-in-out;
+    }
+
+    .form-label-group input::-webkit-input-placeholder {
+      color: transparent;
+    }
+
+    .form-label-group input:-ms-input-placeholder {
+      color: transparent;
+    }
+
+    .form-label-group input::-ms-input-placeholder {
+      color: transparent;
+    }
+
+    .form-label-group input::-moz-placeholder {
+      color: transparent;
+    }
+
+    .form-label-group input::placeholder {
+      color: transparent;
+    }
+
+    .form-label-group input:not(:placeholder-shown) {
+      padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+      padding-bottom: calc(var(--input-padding-y) / 3);
+    }
+
+    .form-label-group input:not(:placeholder-shown) ~ label {
+      padding-top: calc(var(--input-padding-y) / 3);
+      padding-bottom: calc(var(--input-padding-y) / 3);
+      font-size: 12px;
+      color: #777;
+    }
+
+    #footer {
+      font-size: 18px;
+    }
+
+    .octicon {
+      margin-top: -3px;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+  <script src="/dist/costa-rica-iban.min.js"></script>
+  <script>
+    var CostaRicaIBAN = window['costa-rica-iban'].default;
+  </script>
+</head>
+<body>
+  <form class="form-iban">
+    <div class="text-center mb-4">
+      <img class="mb-4" src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Flag_of_Costa_Rica.svg" alt="imagen de la bandera de costa rica" width="72" height="72">
+      <h1 class="h3 mb-3 font-weight-normal">Costa Rica IBAN</h1>
+      <p>
+        Esta página es parte del proyecto de código abierto (open source) <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/costa-rica-iban">costa-rica-iban</a>, 
+        el cual consiste en una <a target="_blank" rel="noopener noreferrer" href="https://es.khanacademy.org/computing/computer-programming/html-css-js/using-js-libraries-in-your-webpage/a/whats-a-js-library"></a>librería de Javascript</a>,
+        compatible con <a target="_blank" rel="noopener noreferrer" href="https://nodejs.org/es/">Node.js</a> y navegadores,
+        que permite validar cuentas <a target="_blank" rel="noopener noreferrer" href="https://www.bgeneral.fi.cr/conozca-el-iban/">IBAN de Costa Rica</a> al igual que extraer datos guardados
+        en el formato de las mismas (tales como código de banco, banco emisor, etc).</p>
+      <hr/>
+      <h2>Validador En Línea</h2>
+      <p>En la caja de texto abajo, escribe un número de cuenta IBAN para validarla y ver los datos guardados en la misma:</p>
+    </div>
+
+    <div class="form-label-group">
+      <input type="iban" id="inputIBAN" class="form-control" placeholder="IBAN address" required autofocus>
+      <label for="inputIBAN">Cuenta IBAN</label>
+    </div>
+
+    <div id="result"></div>
+
+    <hr/>
+
+    <div class="mb-4">
+      <h2 class="text-center">Preguntas Frecuentes</h2>
+      <h3>¿Qué es un número de cuenta IBAN?</h3>
+      <p>
+        En 2017 el Banco Central de Costa introdujo el International Bank Account Number
+        (IBAN, número de cuenta bancaria internacional), el cual es una estructura estandarizada
+        que identifica cuentas de fondos tanto a nivel nacional como internacional.
+      </p>
+      <p>
+        Este formato fue promulgado por el Comité Europeo de Estándares Bancarios, cumple con la norma ISO-13616,
+        y a partir del cierre del año 2018 todas las entidades financieras a nivel de Costa Rica adoptaron este estándar.
+      </p>
+      <div class="text-center">
+        <img width="480" src="/assets/formato-iban.jpg" alt="imagen que muestra la estructura de cuenta IBAN en costa rica, las letras CR seguidas por dos dígitos verificadores, un cero, y un número de cuenta cliente de 17 dígitos">
+        <p class="text-muted font-italic">Fuente: <a href="https://www.bccr.fi.cr/seccion-sistema-de-pagos/informaci%C3%B3n-general/iban" target="_blank" rel="noopener noreferrer">Banco Central de Costa Rica</a></p>
+      </div>
+      <h3>¿Esta página guarda los números de cuenta u otra información personal?</h3>
+      <p>
+        No. El único dato que se guarda es el número de visitas mediante Google Analytics.
+        De igual manera, por ser este un proyecto de código abierto (open source), le invitamos
+        a que revise el <a target="_blank" rel="noopener noreferrer" href="https://github.com/jeanlescure/costa-rica-iban">código fuente</a> de la misma para mayor confianza.
+      </p>
+      <h3>¿Qué datos se pueden extraer de una cuenta IBAN de Costa Rica?</h3>
+      <p>
+        Unicamente se pueden extraer los siguientes datos:
+      </p>
+      <ul>
+        <li>El país en que se encuentra la cuenta bancaria</li>
+        <li>El código de tres dígitos de la entidad bancaria que emitió la cuenta</li>
+        <li>El nombre registral de la entidad bancaria que emitió la cuenta</li>
+        <li>El tipo de entidad bancaria que emitió la cuenta</li>
+        <li>El número de cuenta cliente (SINPE) y por consecuente en la mayoría de casos el número de cuenta bancario interno de la entidad emisora</li>
+      </ul>
+      <h3>¿Cómo se extraen los datos de entidad bancaria, etc de la cuenta IBAN?</h3>
+      <p>
+        Este proyecto usó como base el documento <a href="https://raw.githubusercontent.com/jeanlescure/costa-rica-iban/master/assets/codificaciones-generales-del-sistema-de-pagos.pdf" target="_blank" rel="noopener noreferrer">Codificaciones Generales Del Sistema De Pagos</a> del Banco Central de Costa Rica,
+        el mismo disponible al público en general.
+      </p>
+      <h3>¿Quienes pueden hacer uso de esta herramienta?</h3>
+      <p>
+        Esta página y la librería de Javascript <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/costa-rica-iban">costa-rica-iban</a>
+        son de carácter público y sin restricción, estos derechos otorgados mediante una <a href="https://es.wikipedia.org/wiki/Licencia_MIT" target="_blank" rel="noopener noreferrer">licencia MIT</a>.
+        <pre class="text-muted">
+Por la presente se concede permiso, libre de cargos, a cualquier persona que obtenga una copia de este software y de los archivos de documentación asociados (el "Software"), a utilizar el Software sin restricción, incluyendo sin limitación los derechos a usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar, y/o vender copias del Software, y a permitir a las personas a las que se les proporcione el Software a hacer lo mismo, sujeto a las siguientes condiciones:
+
+El aviso de copyright anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del Software.
+
+EL SOFTWARE SE PROPORCIONA "COMO ESTÁ", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUYENDO PERO NO LIMITADO A GARANTÍAS DE COMERCIALIZACIÓN, IDONEIDAD PARA UN PROPÓSITO PARTICULAR E INCUMPLIMIENTO. EN NINGÚN CASO LOS AUTORES O PROPIETARIOS DE LOS DERECHOS DE AUTOR SERÁN RESPONSABLES DE NINGUNA RECLAMACIÓN, DAÑOS U OTRAS RESPONSABILIDADES, YA SEA EN UNA ACCIÓN DE CONTRATO, AGRAVIO O CUALQUIER OTRO MOTIVO, DERIVADAS DE, FUERA DE O EN CONEXIÓN CON EL SOFTWARE O SU USO U OTRO TIPO DE ACCIONES EN EL SOFTWARE.
+        </pre>
+      </p>
+    </div>
+
+    <p id="footer" class="mt-5 mb-3 text-muted text-center"><svg height="18" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="18" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg> Ver en <a href="https://github.com/jeanlescure/costa-rica-iban" target="_blank" rel="noopener noreferrer">Github</a> | <a href="https://jeanlescure.cr" target="_blank" rel="noopener noreferrer">Jean M. Lescure</a> &copy; 2020-<script>document.write(new Date().getFullYear())</script></p>
+  </form>
+  <script>
+    $('#inputIBAN').on('input', function(e) {
+      var value = e.target.value;
+
+      if (value.length > 22) {
+        value = e.target.value.slice(0, 22);
+        e.target.value = value;
+      }
+
+      if (value.length === 22) {
+        try {
+          var cri = new CostaRicaIBAN(value);
+
+          var bankObject = cri.getBankObject();
+
+          $('#result').html(
+            '<p class="text-success">Formato válido*</p>' + 
+            '<p><strong>Entidad Bancaria:</strong> ' + bankObject.entity + '</p>' +
+            '<p><strong>Código de entidad bancaria:</strong> ' + bankObject.code + '</p>' +
+            '<p class="text-muted font-italic">*Aunque el formato sea válido, esto no garantiza que sea un número de cuenta real.</p>'
+          );
+        } catch(e) {
+          var error = ((/^Format/).test(e.message)) ? 'Formato inválido. Intente de nuevo con un número de cuenta IBAN diferente.' : 'Error.';
+          $('#result').html('<p class="text-danger">' + error + '</p>');
+        }
+      } else {
+        $('#result').html('');
+      }
+    });
+  </script>
+</body>
+</html>
