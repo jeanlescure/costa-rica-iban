@@ -7,7 +7,9 @@
     "build": "webpack --mode production",
     "test": "jest",
     "lint": "eslint --format codeframe --ext mjs,js src test",
-    "deploy": "yarn test && yarn build && rm -rf ./dist && cp -r ./build ./dist && yarn publish"
+    "dist:update": "rm -rf ./dist && cp -r ./build ./dist",
+    "dist:commit": "git add ./dist && git commit -m \"dist updated\"",
+    "deploy": "yarn test && yarn build && yarn dist:update && yarn dist:commit && yarn publish"
   },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.8.3",
