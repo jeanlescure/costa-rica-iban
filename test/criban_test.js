@@ -15,6 +15,8 @@ const goodIBANBank = bankCollection.find((b) => b.code === '102');
 
 const badIBAN = 'DE69 5021 0900 0123 4567 13';
 
+const deceptiveIBAN = 'CR06030500009123456789';
+
 const ambiguousIBAN = 'CR06082400009123456789';
 const ambiguousIBANBank = bankCollection.find((b) => b.code === '824');
 
@@ -58,6 +60,7 @@ describe('Costa Rica IBAN functions', () => {
     } catch(e) {
       expect(e.message).toBe('Type Error: expected string');
       expect(verifyIBANFormat(badIBAN)).toBe(false);
+      expect(verifyIBANFormat(deceptiveIBAN)).toBe(false);
       expect(verifyIBANFormat(goodIBAN)).toBe(true);
     }
   });
