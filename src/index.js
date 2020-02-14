@@ -32,8 +32,8 @@ export const verifyIBANLength = (iban) => {
 export const verifyIBANFormat = (iban) => {
   errorIfNotString(iban);
 
-  return (/^CR\d\d0(1|[3-8])\d{16}$/).test(iban) &&
-    bankCodes.indexOf(iban.slice(5, 8)) > -1;
+  return (/^CR\d\d0(1|[3-8])\d{16}$/).test(iban)
+    && bankCodes.indexOf(iban.slice(5, 8)) > -1;
 };
 
 const errorOnInvalidIBAN = (iban) => {
