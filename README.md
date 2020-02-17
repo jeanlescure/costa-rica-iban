@@ -1,9 +1,10 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Flag_of_Costa_Rica.svg" alt="imagen de la bandera de costa rica" width="200" height="200">
+
+# Costa Rica IBAN
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-
-# Costa Rica IBAN
 
 Funciones de Javascript útiles para extraer y validar información general de números de cuenta IBAN de Costa Rica.
 
