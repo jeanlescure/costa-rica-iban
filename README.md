@@ -3,7 +3,7 @@
 # Costa Rica IBAN
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Funciones de Javascript útiles para extraer y validar información general de números de cuenta IBAN de Costa Rica.
@@ -150,9 +150,10 @@ Gracias a los colaboradores de este proyecto ([emoji key](https://allcontributor
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://jeanlescure.io"><img src="https://avatars2.githubusercontent.com/u/3330339?v=4" width="100px;" alt=""/><br /><sub><b>Jean Lescure</b></sub></a><br /><a href="https://github.com/jeanlescure/costa-rica-iban/commits?author=jeanlescure" title="Code">💻</a> <a href="#content-jeanlescure" title="Content">🖋</a> <a href="https://github.com/jeanlescure/costa-rica-iban/commits?author=jeanlescure" title="Documentation">📖</a> <a href="#design-jeanlescure" title="Design">🎨</a> <a href="#example-jeanlescure" title="Examples">💡</a> <a href="#maintenance-jeanlescure" title="Maintenance">🚧</a> <a href="https://github.com/jeanlescure/costa-rica-iban/commits?author=jeanlescure" title="Tests">⚠️</a> <a href="#userTesting-jeanlescure" title="User Testing">📓</a></td>
+    <td align="center"><a href="https://jeanlescure.cr"><img src="https://avatars2.githubusercontent.com/u/3330339?v=4" width="100px;" alt=""/><br /><sub><b>Jean Lescure</b></sub></a><br /><a href="https://github.com/jeanlescure/costa-rica-iban/commits?author=jeanlescure" title="Code">💻</a> <a href="#content-jeanlescure" title="Content">🖋</a> <a href="https://github.com/jeanlescure/costa-rica-iban/commits?author=jeanlescure" title="Documentation">📖</a> <a href="#design-jeanlescure" title="Design">🎨</a> <a href="#example-jeanlescure" title="Examples">💡</a> <a href="#maintenance-jeanlescure" title="Maintenance">🚧</a> <a href="https://github.com/jeanlescure/costa-rica-iban/commits?author=jeanlescure" title="Tests">⚠️</a> <a href="#userTesting-jeanlescure" title="User Testing">📓</a></td>
     <td align="center"><a href="https://github.com/RoloGH"><img src="https://avatars2.githubusercontent.com/u/16967799?v=4" width="100px;" alt=""/><br /><sub><b>Rolando Gonzalez H.</b></sub></a><br /><a href="https://github.com/jeanlescure/costa-rica-iban/pulls?q=is%3Apr+reviewed-by%3ARoloGH" title="Reviewed Pull Requests">👀</a></td>
-    <td align="center"><a href="https://kevinwolf.dev"><img src="https://avatars2.githubusercontent.com/u/3157426?v=4" width="100px;" alt=""/><br /><sub><b>Kevin Wolf</b></sub></a><br /><a href="#ideas-iamkevinwolf" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://kevinwolf.dev"><img src="https://avatars2.githubusercontent.com/u/3157426?v=4" width="100px;" alt=""/><br /><sub><b>Kevin Wolf</b></sub></a><br /><a href="#ideas-iamkevinwolf" title="Ideas, Planning, & Feedback">🤔</a> <a href="#projectManagement-iamkevinwolf" title="Project Management">📆</a></td>
+    <td align="center"><a href="https://dianalu.design"><img src="https://avatars2.githubusercontent.com/u/1036995?v=4" width="100px;" alt=""/><br /><sub><b>Diana Lescure</b></sub></a><br /><a href="#userTesting-DiLescure" title="User Testing">📓</a> <a href="#a11y-DiLescure" title="Accessibility">️️️️♿️</a></td>
   </tr>
 </table>
 
