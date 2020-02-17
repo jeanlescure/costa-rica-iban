@@ -20,6 +20,15 @@
         "test",
         "userTesting"
       ]
+    },
+    {
+      "login": "RoloGH",
+      "name": "Rolando Gonzalez H.",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/16967799?v=4",
+      "profile": "https://github.com/RoloGH",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
