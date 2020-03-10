@@ -25,7 +25,7 @@ describe('Costa Rica IBAN functions', () => {
     try {
       getCountryPrefixFromIBAN();
       expect(true).toBe(false);
-    } catch(e) {
+    } catch (e) {
       expect(e.message).toBe('Type Error: expected string');
       expect(getCountryPrefixFromIBAN(goodIBAN)).toBe('CR');
     }
@@ -35,7 +35,7 @@ describe('Costa Rica IBAN functions', () => {
     try {
       verifyIBANCountryPrefix();
       expect(true).toBe(false);
-    } catch(e) {
+    } catch (e) {
       expect(e.message).toBe('Type Error: expected string');
       expect(verifyIBANCountryPrefix(badIBAN)).toBe(false);
       expect(verifyIBANCountryPrefix(goodIBAN)).toBe(true);
@@ -46,7 +46,7 @@ describe('Costa Rica IBAN functions', () => {
     try {
       verifyIBANLength();
       expect(true).toBe(false);
-    } catch(e) {
+    } catch (e) {
       expect(e.message).toBe('Type Error: expected string');
       expect(verifyIBANLength(badIBAN)).toBe(false);
       expect(verifyIBANLength(goodIBAN)).toBe(true);
@@ -57,7 +57,7 @@ describe('Costa Rica IBAN functions', () => {
     try {
       verifyIBANFormat();
       expect(true).toBe(false);
-    } catch(e) {
+    } catch (e) {
       expect(e.message).toBe('Type Error: expected string');
       expect(verifyIBANFormat(badIBAN)).toBe(false);
       expect(verifyIBANFormat(deceptiveIBAN)).toBe(false);
@@ -69,7 +69,7 @@ describe('Costa Rica IBAN functions', () => {
     try {
       getBankCodeFromIBAN(badIBAN);
       expect(true).toBe(false);
-    } catch(e) {
+    } catch (e) {
       expect(e.message).toBe('Format Error: invalid Costa Rica IBAN format');
       expect(getBankCodeFromIBAN(goodIBAN)).toBe(goodIBANBank.code);
     }
@@ -79,7 +79,7 @@ describe('Costa Rica IBAN functions', () => {
     try {
       getBankObjectFromIBAN(badIBAN);
       expect(true).toBe(false);
-    } catch(e) {
+    } catch (e) {
       expect(e.message).toBe('Format Error: invalid Costa Rica IBAN format');
       expect(getBankObjectFromIBAN(goodIBAN).entity).toBe(goodIBANBank.entity);
     }
@@ -89,7 +89,7 @@ describe('Costa Rica IBAN functions', () => {
     try {
       getBankNameFromIBAN(badIBAN);
       expect(true).toBe(false);
-    } catch(e) {
+    } catch (e) {
       expect(e.message).toBe('Format Error: invalid Costa Rica IBAN format');
       expect(getBankNameFromIBAN(goodIBAN)).toBe(goodIBANBank.entity);
       expect(getBankNameFromIBAN(ambiguousIBAN)).toBe(ambiguousIBANBank.entity);
@@ -105,14 +105,14 @@ describe('Costa Rica IBAN class', () => {
     try {
       cri = new CostaRicaIBAN(badIBAN);
       expect(true).toBe(false);
-    } catch(e) {
+    } catch (e) {
       expect(e.message).toBe('Format Error: invalid Costa Rica IBAN format');
     }
 
     try {
       cri = new CostaRicaIBAN();
       expect(true).toBe(false);
-    } catch(e) {
+    } catch (e) {
       expect(e.message).toBe('Type Error: expected string');
 
       cri = new CostaRicaIBAN(goodIBAN);

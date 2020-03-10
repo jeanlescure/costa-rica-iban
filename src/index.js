@@ -1,3 +1,4 @@
+const { version } = require('../package.json');
 const bankCollection = require('./bank-collection.json');
 
 const bankCodes = bankCollection.map((b) => b.code);
@@ -89,6 +90,8 @@ class CostaRicaIBAN {
   getBankName() {
     return getBankNameFromIBAN(this.iban);
   }
+
+  getVersion = () => version;
 }
 
 export default CostaRicaIBAN;
