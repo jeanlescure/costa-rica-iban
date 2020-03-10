@@ -1,8 +1,12 @@
 {
   "name": "costa-rica-iban",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/costa-rica-iban.min.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeanlescure/costa-rica-iban"
+  },
   "scripts": {
     "build": "webpack --mode production",
     "test": "jest",
