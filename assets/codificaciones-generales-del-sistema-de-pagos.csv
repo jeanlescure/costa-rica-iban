@@ -1,0 +1,88 @@
+code,entity,category,participation,representative
+100,Banco Central de Costa Rica,,asociada,
+102,BAC San José S.A.,BANCO COMERCIAL PRIVADO,asociada,
+104,Banco Davivienda (Costa Rica) S.A.,BANCO COMERCIAL PRIVADO,asociada,
+107,Banco BCT S.A.,BANCO COMERCIAL PRIVADO,asociada,
+114,Banco LAFISE S.A.,BANCO COMERCIAL PRIVADO,asociada,
+116,Banca Promérica S.A.,BANCO COMERCIAL PRIVADO,asociada,
+117,Banco Citibank (Costa Rica) S.A.,BANCO COMERCIAL PRIVADO,asociada,
+120,Banco Improsa S.A.,BANCO COMERCIAL PRIVADO,asociada,
+123,Scotiabank de Costa Rica S.A.,BANCO COMERCIAL PRIVADO,asociada,
+125,Banco Cathay de Costa Rica S.A.,BANCO COMERCIAL PRIVADO,asociada,
+126,Banco General (Costa Rica) S.A.,BANCO COMERCIAL PRIVADO,asociada,
+312,Banco de Soluciones de Costa Rica S.A. (BANSOLS.A.),BANCO COMERCIAL PRIVADO,asociada,
+151,Banco Nacional de Costa Rica,"BANCO COMERCIAL PUBLICO, BPDC, OTRA ENTIDAD CREADA POR LEY ESPECIAL",asociada,
+152,Banco de Costa Rica,"BANCO COMERCIAL PUBLICO, BPDC, OTRA ENTIDAD CREADA POR LEY ESPECIAL",asociada,
+153,Banco Crédito Agrícola de Cartago,"BANCO COMERCIAL PUBLICO, BPDC, OTRA ENTIDAD CREADA POR LEY ESPECIAL",asociada,
+161,Banco Popular y de Desarrollo Comunal,"BANCO COMERCIAL PUBLICO, BPDC, OTRA ENTIDAD CREADA POR LEY ESPECIAL",asociada,
+162,Banco Hipotecario de la Vivienda,"BANCO COMERCIAL PUBLICO, BPDC, OTRA ENTIDAD CREADA POR LEY ESPECIAL",asociada,
+304,Financiera Cafsa S.A.,EMPRESA FINANCIERA NO BANCARIA,asociada,
+310,Financiera G&T Continental Costa Rica S.A.,EMPRESA FINANCIERA NO BANCARIA,asociada,
+321,Financiera Multivalores S.A.,EMPRESA FINANCIERA NO BANCARIA,asociada,
+322,Financiera Comeca S.A.,EMPRESA FINANCIERA NO BANCARIA,asociada,
+326,Financiera Desyfin S.A.,EMPRESA FINANCIERA NO BANCARIA,asociada,
+406,Latin American Exchange Casa de Cambio S.A (Latinex),CASA DE CAMBIO,asociada,
+450,Citi Tarjetas de Costa Rica S.A.,ENTIDAD LIQUIDADORA DE SERVICIOS Y EMISORA DE TARJETAS,asociada,
+451,Evertec Costa Rica S.A.,ENTIDAD LIQUIDADORA DE SERVICIOS Y EMISORA DE TARJETAS,asociada,
+501,Bolsa Nacional de Valores S.A.,ENTIDAD LIQUIDADORA DE SERVICIOS Y EMISORA DE TARJETAS,asociada,
+745,Central de Valores Bolsa Nacional de Valores (CEVAL),ENTIDAD LIQUIDADORA DE SERVICIOS Y EMISORA DE TARJETAS,asociada,
+837,Credomatic,ENTIDAD LIQUIDADORA DE SERVICIOS Y EMISORA DE TARJETAS,representada,BAC San José
+553,Inversiones Sama S.A.,PUESTO DE BOLSA,asociada,
+554,Mercado de Valores de C.R.,PUESTO DE BOLSA,asociada,
+556,BCT Valores,PUESTO DE BOLSA,asociada,
+558,Citi Valores Accival S.A.,PUESTO DE BOLSA,asociada,
+559,ACOBO,PUESTO DE BOLSA,asociada,
+568,INS Valores,PUESTO DE BOLSA,asociada,
+569,Lafise Valores,PUESTO DE BOLSA,asociada,
+570,Davivienda Puesto de Bolsa (Costa Rica) S.A.,PUESTO DE BOLSA,asociada,
+571,Scotia Valores,PUESTO DE BOLSA,asociada,
+574,Mutual Valores,PUESTO DE BOLSA,asociada,
+577,Aldesa Valores,PUESTO DE BOLSA,asociada,
+581,BAC San José,PUESTO DE BOLSA,asociada,
+586,BN Valores,PUESTO DE BOLSA,asociada,
+587,Popular Valores,PUESTO DE BOLSA,asociada,
+588,BCR Valores,PUESTO DE BOLSA,asociada,
+594,Improsa Valores,PUESTO DE BOLSA,asociada,
+651,BN-VITAL Operadora de Planes de Pensiones Complementarias S.A.,FONDO DE PENSION,asociada,
+653,Vida Plena Operadora de Pensiones Complementarias S.A.,FONDO DE PENSION,asociada,
+654,Caja Costarricense de Seguro Social Operadora de Pensiones Complementarias,FONDO DE PENSION,asociada,
+655,Bac San José Operadora de Pensiones Complementarias,FONDO DE PENSION,asociada,
+656,Operadora de Planes de Pensiones Complementarias del Banco Popular y Desarrollo Comunal,FONDO DE PENSION,asociada,
+657,BCR Operadora Planes de Pensiones Complementarias S.A.,FONDO DE PENSION,asociada,
+725,MIDEPLAN,INSTITUCION PUBLICA,asociada,
+730,Instituto de Fomento y Asesoría Municipal (IFAM),INSTITUCION PUBLICA,asociada,
+731,Instituto Costarricense sobre Drogas (ICD),INSTITUCION PUBLICA,,
+734,Instituto Costarricense de Electricidad (ICE),INSTITUCION PUBLICA,asociada,
+735,Recope,INSTITUCION PUBLICA,asociada,
+739,Ministerio de Hacienda,INSTITUCION PUBLICA,asociada,
+746,Caja Costarricense de Seguro Social (CCSS),INSTITUCION PUBLICA,asociada,
+747,Instituto Nacional de Seguros (INS),INSTITUCION PUBLICA,asociada,
+750,Gob. Tribunal Supremo de Elecciones (TSE),INSTITUCION PUBLICA,,
+754,Junta de Protección Social de San José,INSTITUCION PUBLICA,asociada,
+755,Municipalidad de San José,INSTITUCION PUBLICA,asociada,
+756,Radiográfica Costarricense S.A. (RACSA),INSTITUCION PUBLICA,asociada,
+757,Municipalidad de Cartago,INSTITUCION PUBLICA,representada,COOPENAE
+838,Promotora del Comercio Exterior de Costa Rica (Procomer),INSTITUCION PUBLICA,representada,COOPENAE
+803,Grupo Mutual Alajuela la Vivienda,MUTUAL DE AHORRO Y PRESTAMO,asociada,
+804,Mutual Cartago de Ahorro y Préstamo,MUTUAL DE AHORRO Y PRESTAMO,asociada,
+180,COOPEACOSTA,COOPERATIVA DE AHORRO Y PRESTAMO,representada,COOPENAE
+811,Cooperativa de Ahorro y Crédito de la Comunidad de Ciudad Quesada R. L. (COOCIQUE),COOPERATIVA DE AHORRO Y PRESTAMO,asociada,
+812,COOPE SAN MARCOS,COOPERATIVA DE AHORRO Y PRESTAMO,representada,COOPENAE
+813,Cooperativa de Ahorro y Crédito Alianza de Pérez Zeledón (COOPEALIANZA),COOPERATIVA DE AHORRO Y PRESTAMO,asociada,
+814,Cooperativa Nacional de Educadores. R.L. (COOPENAE),COOPERATIVA DE AHORRO Y PRESTAMO,asociada,
+815,SERVICOOP R.L.,COOPERATIVA DE AHORRO Y PRESTAMO,representada,COOPENAE
+816,Cooperativa de Ahorro y Crédito de Servidores Públicos R.L. (COOPESERVIDORES),COOPERATIVA DE AHORRO Y PRESTAMO,asociada,
+817,Cooperativa de Ahorro y Crédito ANDE Nº 1 R.L. (COOPEANDE).,COOPERATIVA DE AHORRO Y PRESTAMO,asociada,
+820,Coop. COOPECAJA,COOPERATIVA DE AHORRO Y PRESTAMO,representada,COOPENAE
+821,Caja de Ahorro y Préstamos de ANDE,COOPERATIVA DE AHORRO Y PRESTAMO,asociada,
+822,COOPEMEP R.L.,COOPERATIVA DE AHORRO Y PRESTAMO,asociada,
+824,CREDECOOP,COOPERATIVA DE AHORRO Y PRESTAMO,representada,COOPENAE
+825,COOPESAN RAMON,COOPERATIVA DE AHORRO Y PRESTAMO,representada,COOPENAE
+827,COOPEBANPO,COOPERATIVA DE AHORRO Y PRESTAMO,representada,COOPENAE
+829,COOPEAMISTAD,COOPERATIVA DE AHORRO Y PRESTAMO,representada,COOPENAE
+831,COOPEGRECIA,COOPERATIVA DE AHORRO Y PRESTAMO,representada,COOPENAE
+832,COOPAVEGRA,COOPERATIVA DE AHORRO Y PRESTAMO,representada,COOPENAE
+833,COOPEUNA,COOPERATIVA DE AHORRO Y PRESTAMO,representada,COOPENAE
+834,COOPEANDE No. 7 R.L.,COOPERATIVA DE AHORRO Y PRESTAMO,representada,COOPENAE
+835,COOPESPARTA R.L.,COOPERATIVA DE AHORRO Y PRESTAMO,representada,COOPENAE
+836,COOPEASERRI R.L.,COOPERATIVA DE AHORRO Y PRESTAMO,representada,COOPENAE

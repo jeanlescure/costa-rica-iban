@@ -1,0 +1,9 @@
+{
+  "name": "costa-rica-iban-notebook",
+  "version": "1.0.0",
+  "author": "Jean M. Lescure",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "jsdom": "19.0.0"
+  }
+}
