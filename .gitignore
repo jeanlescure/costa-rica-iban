@@ -473,3 +473,4 @@ common/autoinstallers/*/.npmrc
 
 # Heft
 .heft
+.ipynb_checkpoints
