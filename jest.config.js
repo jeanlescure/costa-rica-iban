@@ -1,5 +1,6 @@
-const neutrino = require('neutrino');
-
-process.env.NODE_ENV = process.env.NODE_ENV || 'test';
-
-module.exports = neutrino().jest();
+module.exports = {
+  maxWorkers: "10%",
+  coverageProvider: "v8",
+  preset: 'ts-jest',
+  testEnvironment: 'node',
+};

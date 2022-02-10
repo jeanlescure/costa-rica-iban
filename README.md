@@ -6,9 +6,11 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Funciones de Javascript útiles para extraer y validar información general de números de cuenta IBAN de Costa Rica.
+Funciones de Typescript/Javascript útiles para extraer y validar información general de números de cuenta IBAN de Costa Rica.
 
-Este repositorio fue creado usando [Neutrino](https://neutrinojs.org/).
+Esta herramienta fue creada en base al documento [Codificaciones Generales Del Sistema De Pagos](https://raw.githubusercontent.com/jeanlescure/costa-rica-iban/master/assets/codificaciones-generales-del-sistema-de-pagos.pdf)
+del Banco Central de Costa Rica (BCCR). El Jupyter Notebook usado para la extracción de datos puede
+ser visualizado en [este enlace](https://raw.githubusercontent.com/jeanlescure/costa-rica-iban/master/assets/cotejando-codificaciones-generales-del-sistema-de-pagos.html).
 
 ## Herramienta en línea
 
@@ -17,6 +19,12 @@ Para validar números de cuenta IBAN y extraer información sobre las entidad ba
 [https://costaricaiban.org](https://costaricaiban.org)
 
 ## Uso con Node.js
+
+Instalación pnpm:
+
+```
+$ pnpm add costa-rica-iban
+```
 
 Instalación yarn:
 
@@ -39,14 +47,14 @@ import {
 } from 'costa-rica-iban';
 
 
-// Cuenta de banco sin representante:
+// Cuenta IBAN en entidad bancaria sin representante:
 let bankAcct = 'CR06010200009123456789';
 
 console.log(getBankNameFromIBAN(bankAcct));
 // > BAC San José S.A.
 
 
-// Cuenta de banco con representante:
+// Cuenta IBAN en entidad bancaria con representante:
 bankAcct = 'CR06083700009123456789';
 
 console.log(getBankNameFromIBAN(bankAcct));
@@ -61,6 +69,7 @@ console.log(getBankObjectFromIBAN(bankAcct));
 // {
 //   "code": "837",
 //   "entity": "Credomatic",
+//   "category": "ENTIDAD LIQUIDADORA DE SERVICIOS Y EMISORA DE TARJETAS",
 //   "participation": "representada",
 //   "representative": "BAC San José S.A."
 // }
@@ -75,6 +84,7 @@ Funciones disponibles:
 - `verifyIBANFormat(iban)`
 - `getBankCodeFromIBAN(iban)`
 - `getBankObjectFromIBAN(iban)`
+- `getBankCategoryFromIBAN(iban)`
 - `getBankNameFromIBAN(iban, returnRepresentative = false)`
 
 Uso de clase:
@@ -99,9 +109,10 @@ Funciones de clase disponibles:
 - `.getCountryPrefix()`
 - `.getBankCode()`
 - `.getBankObject()`
+- `.getBankCategory()`
 - `.getBankName()`
 
-Para más detalles ver las [pruebas](https://github.com/jeanlescure/costa-rica-iban/tree/master/test/criban_test.js) en `./test/criban_test.js`.
+Para más detalles ver las [pruebas](https://github.com/jeanlescure/costa-rica-iban/tree/master/src/index.test.js) en `./src/index.test.ts`.
 
 ## Uso en el navegador
 
@@ -121,15 +132,15 @@ Para más detalles ver las [pruebas](https://github.com/jeanlescure/costa-rica-i
 Clonar repositorio e instalar dependencias:
 
 ```
-$ yarn
+$ pnpm
 ```
 
-Usamos [TDD](https://es.wikipedia.org/wiki/Desarrollo_guiado_por_pruebas), por lo tanto se espera que se agreguen las pruebas pertinentes en `./test/criban_test.js`.
+Usamos [TDD](https://es.wikipedia.org/wiki/Desarrollo_guiado_por_pruebas), por lo tanto se espera que se agreguen las pruebas pertinentes en `./src/index.test.ts`.
 
 Nuestro motor de pruebas es [Jest](https://jestjs.io/). Para ejecutar las pruebas simplemente hace falta correr el comando:
 
 ```
-$ yarn test
+$ pnpm test
 ```
 
 ## Colaboración
