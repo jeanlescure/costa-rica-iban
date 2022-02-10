@@ -10,7 +10,7 @@ Funciones de Typescript/Javascript útiles para extraer y validar información g
 
 Esta herramienta fue creada en base al documento [Codificaciones Generales Del Sistema De Pagos](https://raw.githubusercontent.com/jeanlescure/costa-rica-iban/master/assets/codificaciones-generales-del-sistema-de-pagos.pdf)
 del Banco Central de Costa Rica (BCCR). El Jupyter Notebook usado para la extracción de datos puede
-ser visualizado en [este enlace](https://raw.githubusercontent.com/jeanlescure/costa-rica-iban/master/assets/cotejando-codificaciones-generales-del-sistema-de-pagos.html).
+ser visualizado en [este enlace](https://costaricaiban.org/assets/cotejando-codificaciones-generales-del-sistema-de-pagos.html).
 
 ## Herramienta en línea
 
