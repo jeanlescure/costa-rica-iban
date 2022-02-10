@@ -119,8 +119,6 @@ Para más detalles ver las [pruebas](https://github.com/jeanlescure/costa-rica-i
 ```html
 <script src="/dist/costa-rica-iban.min.js"></script>
 <script>
-  var CostaRicaIBAN = window['costa-rica-iban'].default;
-
   var cri = new CostaRicaIBAN('CR06010200009123456789');
 
   document.write(cri.getBankObject());

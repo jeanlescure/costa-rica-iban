@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-MODULE_NAME=package
-GLOBAL_NAME=Package
+MODULE_NAME=costa-rica-iban
+GLOBAL_NAME=CostaRicaIBAN
 
 rm -rf dist/*
 esbuild src/index.ts --bundle --target=chrome60,firefox60,safari12,edge18 \
