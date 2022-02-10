@@ -6,7 +6,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Funciones de Typescript/Javascript útiles para extraer y validar información general de números de cuenta IBAN de Costa Rica.
+Funciones de Typescript/Javascript útiles para extraer y validar información general de números de cuenta [IBAN de Costa Rica](https://www.bccr.fi.cr/sistema-de-pagos/informaci%C3%B3n-general/iban).
 
 Esta herramienta fue creada en base al documento [Codificaciones Generales Del Sistema De Pagos](https://raw.githubusercontent.com/jeanlescure/costa-rica-iban/master/assets/codificaciones-generales-del-sistema-de-pagos.pdf)
 del Banco Central de Costa Rica (BCCR). El Jupyter Notebook usado para la extracción de datos puede
